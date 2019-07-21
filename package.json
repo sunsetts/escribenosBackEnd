@@ -1,0 +1,30 @@
+{
+  "name": "escribenos-backend",
+  "version": "1.0.0",
+  "description": "Componente para recibir mensajes por email de los usuarios directo desde nuestra web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunsetts/escribenosBackEnd.git"
+  },
+  "author": "Luis Colmenarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunsetts/escribenosBackEnd/issues"
+  },
+  "homepage": "https://github.com/sunsetts/escribenosBackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
