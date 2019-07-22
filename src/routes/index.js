@@ -32,9 +32,9 @@ router.post('/api/contacto', (req, res, next) => {
         subject:"Nuevo mensaje de usuario",
         html:`
             <div>
-            <p>Correo: ${req.body.c}</p>
-            <p>Nombre: ${req.body.n}</p>
-            <p>Mensaje: ${req.body.m}</p>
+            <p>Nombre: ${req.body.name}</p>
+            <p>Correo: ${req.body.email}</p>
+            <p>Mensaje: ${req.body.msg}</p>
             </div>`
         }
 
